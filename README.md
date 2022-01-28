@@ -1,6 +1,33 @@
-# Proyecto Final | Equipo 19 | Módulo 2: Programación con JavaScript
+# Taste U
+Elegant recipe explorer for midnight cravings.
 
-## Integrantes del equipo
+## Project
+
+Web app that consists in a recipe browser, consuming the [TheMealDB](https://www.themealdb.com/api.php) API. It is possible to generate queries through the interface and browse the displayed results dynamically. When accessing a recipe, more details like ingredients and instructions, are shown. Additionally, random recipes can be queried, for the indecisive user.
+
+### Install
+
+1. Get the repo
+
+```sh
+gh repo clone POWRFULCOW89/TasteU
+```
+
+or [download](https://github.com/POWRFULCOW89/TasteU/archive/refs/heads/master.zip) as ZIP.
+
+2. Install dependencies:
+
+```sh
+npm i
+```
+
+3. Start the webpack server with:
+
+```sh
+npm start
+```
+
+## Team
 
 - [Valeria Jimeno Villegas](https://github.com/valjime95)
 - [Rogelio Magaña Tapia](https://github.com/MaganaRogelio)
@@ -8,32 +35,3 @@
 - [Sergio Gael Martínez Sarmiento](https://github.com/Searge1357)
 - [Diego Domínguez Melo](https://github.com/POWRFULCOW89)
 
-## Instrucciones
-
-1. Obtener el repositorio clonando
-
-```sh
-gh repo clone SupaStar/ProyectoFinalBedu
-```
-
-o [descargar](https://github.com/SupaStar/ProyectoFinalBedu/archive/refs/heads/master.zip) el repositorio como ZIP.
-
-2. Instalar las dependencias con:
-
-```sh
-npm i
-```
-
-3. Iniciar el servidor de Webpack con
-
-```sh
-npm start
-```
-
-## Proyecto
-
-El proyecto a realizar es una aplicación web que consiste en un buscador de recetas, consumiendo la API de [TheMealDB](https://www.themealdb.com/api.php). Es posible generar búsquedas a través de la interfaz y desplegar los resultados de manera dinámica. Al acceder a una receta, se despliegan más detalles acerca de la misma, como ingredientes e instrucciones. De manera adicional, se posibilita la búsqueda de recetas de manera aleatoria.
-
-Link del vídeo expositorio (vencimiento: 25 de agosto): [Descarga](https://we.tl/t-I6Uy83U9gF)
-
-Link del deploy en Netlify: [Link](https://tasteu.netlify.app/)
